@@ -1,0 +1,87 @@
+4.005f2
+-- Moved Tools->CGF to Tools->Resurgam Studios->CGF.
+-- Re-organized folder structure for bundle package.
+-- Changed Icon logic to work with new folder structure.
+
+4.05f1
+-- Added Pivot demo scene.
+-- Added Pivot component with custom gizmos.
+-- Updated CGF logo.
+-- Misc performance script updates.
+
+4.00f1
+-- Added 'Box' type under 'Shapes' for 3D and 2D. NOTE: Requires Unity 5.3 or higher.
+-- Reduced memory usage by 90%!!!
+-- Added Non-Alloc physics support under 'Memory Properties' for 3D and 2D. NOTE: Requires Unity 5.3 or higher for 3D.
+-- Updated all gizmos for all physics 'Shapes' and 'Force Types' for 3D and 2D.
+-- Added new editor handles for all physics 'Shapes' for sizing 3D and 2D cgf objects.
+-- Added 'See Colliders' and 'See Raycast Hits' under 'Memory Properties' for 3D and 2D.
+-- Added memory usage bar under 'Memory Properties' for 3D and 2D when using 'Non-Alloc Physics'
+-- Updated wizard form for the new changes.
+-- Updated inspector GUI for 3D and 2D.
+-- Updated all 'Controls', 'Mods' and 'Trigger' classes for the new changes.
+-- Renamed CircularGravity.cs to CGF.cs
+-- Renamed CircularGravity2D.cs to CGF2D.cs
+-- Renamed CircularGravity_Editor.cs to CGF_Editor.cs
+-- Renamed CircularGravity2D_Editor.cs to CGF2D_Editor.cs
+-- Renamed CircularGravity_Tool.cs to CGF2D_Tool.cs
+
+3.21f1
+-- Fixed a bug for both 2D and 3D where you would get a Input force is { NaN, NaN } error when using 'Gravitational Attraction'
+-- Combined and removed LookTo, and MoveTo into a much better pivot system for the camera
+-- Added a title picture for 2D and 3D CGF objects
+-- Moved CGF into the Physics/Physics2D component menu
+
+3.20f1
+-- Added tooltips on EVERYTHING!
+-- Updated changes for Unity 5.3
+-- Updated areas that where using strings for layering and replaced them with LayerMask vars
+-- Changes shortcut keys for creating 3D/2D CGF gameobjects
+
+3.10
+-- Re-Masked Inspector GUI for CircularGravity.cs and CircularGravity2D.cs, looks alot cleaner and makes more sense
+-- Added all new icons for CircularGravity, Controls, Mods, and Triggers
+-- Added items to Hierarchy menu 'Create -> 3D Object -> CGF' and '2D Ojbect -> CGF 2D' for quickly creating CGF's
+-- Added items to toolbar under 'Tools -> CGF -> Quick CGF' and 'Tools -> CGF -> Quick CGF 2D' with shortcuts for quickly creating CGF's
+-- Added 'Align Direction' under 'Constraints Properties' for CircularGravity.cs and CircularGravity2D.cs
+-- Added context menu items for CircularGravity.cs and CircularGravity2D.cs, makes it a lot easier to add controls, mods, or trigger scripts
+-- Added prototype 'Homeing Rocket' test scene
+-- Updated CGF Wizard, and Toolbar menu items
+
+3.07
+-- Memory Optimization
+
+3.06
+-- Added More Tutorial Videos to Menu
+-- Cleaned Up UI Canvas in Demo Scenes
+-- Updated Gizmo Arrows
+-- Mouse FPS Fix
+-- Unity 5.00-5.10 Warning Fixes
+
+3.05
+-- Added Gravitational Attraction for a Fifth Type Also Supports 2D
+-- Added Planet Scene
+-- Added Planet 2D Scene
+-- Added Hovercraft Scene
+-- Added Align to Force Filtering Options
+-- Updated Tool Classes
+-- Updated Hover Options
+-- Changed SceneSettins.cs to a Singleton
+
+3.01
+-- Gizmos Icon Compatibility Update
+-- Add GameObject Filtering
+-- Change Filters to use List not Arrays
+-- Added Shortcut to Wizard window
+-- Add Tutorials to Toolbar
+-- Select Multiple CGF at Once Update
+-- Add Diagram Scene
+
+3.00
+-- All New Demo Scenes
+-- 4 Different Types of Physics
+-- Mass Code Optimization
+-- 2D Support
+-- Unity 5 Ready
+-- Visual Gizmo Updates
+-- Editor Tool Wizard Updates
